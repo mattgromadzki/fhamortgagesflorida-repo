@@ -1,10 +1,6 @@
 backend:
   name: github
-<<<<<<< HEAD
   repo: mattgromadzki/fhamortgagesflorida-repo   # VERIFY: must exactly match your GitHub username/repo
-=======
-  repo: mattgromadzki/fhamortgagesflorida-repo
->>>>>>> 52e9f021841fd829ab089f7cbf6866be927ef9b5
   branch: main
   base_url: https://sveltia-cms-auth.mattgromadzki.workers.dev
 
@@ -65,9 +61,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    filter:
-      field: type
-      value: city
+    filter: { field: type, value: city }
     fields:
       - { label: URL slug (no .html), name: slug, widget: string }
       - { label: SEO title, name: title, widget: string }
@@ -91,9 +85,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    filter:
-      field: type
-      value: county
+    filter: { field: type, value: county }
     fields:
       - { label: URL slug (no .html), name: slug, widget: string }
       - { label: SEO title, name: title, widget: string }
@@ -117,9 +109,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    filter:
-      field: type
-      value: pillar
+    filter: { field: type, value: pillar }
     fields:
       - { label: URL slug (no .html), name: slug, widget: string }
       - { label: SEO title, name: title, widget: string }
@@ -143,9 +133,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-    filter:
-      field: type
-      value: trust
+    filter: { field: type, value: trust }
     fields:
       - { label: URL slug (no .html), name: slug, widget: string }
       - { label: SEO title, name: title, widget: string }
@@ -169,17 +157,7 @@ collections:
     extension: json
     format: json
     identifier_field: slug
-<<<<<<< HEAD
     filter: { field: type, value: [tool, hub, home, page] }
-=======
-    filter:
-      field: type
-      value:
-        - hub
-        - home
-        - tool
-        - page
->>>>>>> 52e9f021841fd829ab089f7cbf6866be927ef9b5
     fields:
       - { label: URL slug, name: slug, widget: string }
       - { label: SEO title, name: title, widget: string }

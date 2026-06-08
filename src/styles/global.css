@@ -424,3 +424,12 @@ nav.main .nav-item.open .caret{transform:rotate(180deg)}
   nav.main .dropdown::before{display:none}
   nav.main .dropdown a{white-space:normal;padding:8px 10px}
 }
+
+/* ---- Browse-by-city / browse-by-county hub grid (sitemaplist) ---- */
+.sitemaplist{columns:3;column-gap:30px}
+.sitemaplist h3{font-size:1.05rem;margin:14px 0 7px;break-after:avoid;color:var(--coral)}
+.sitemaplist ul{list-style:none;margin-bottom:14px}
+.sitemaplist li{margin-bottom:6px}
+.sitemaplist a{font-weight:600}
+@media(max-width:780px){.sitemaplist{columns:2}}
+@media(max-width:480px){.sitemaplist{columns:1}}
