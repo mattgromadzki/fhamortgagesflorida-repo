@@ -4,7 +4,7 @@ backend:
   branch: main
   base_url: https://sveltia-cms-auth.mattgromadzki.workers.dev
 
-site_url: https://fhamortgagesflorida-repo.mattgromadzki.workers.dev
+site_url: https://fhamortgagesflorida.com
 media_folder: public
 public_folder: /
 
