@@ -24,3 +24,25 @@ if(qf){qf.addEventListener('submit',async function(e){
     if(d.success)ok();else throw new Error(d.message||"Failed");
   }catch(err){btn.disabled=false;btn.textContent=orig;if(errEl){errEl.textContent="Sorry, something went wrong. Please call us at __PHONE_DISPLAY__ and we'll help right away.";errEl.style.display="block";}}
 });}
+// ---- dropdown menus ----
+(function(){
+  var triggers=document.querySelectorAll('.nav-trigger');
+  triggers.forEach(function(btn){
+    btn.addEventListener('click',function(e){
+      e.preventDefault(); e.stopPropagation();
+      var item=btn.parentNode, isOpen=item.classList.contains('open');
+      document.querySelectorAll('nav.main .nav-item.open').forEach(function(i){
+        if(i!==item){ i.classList.remove('open'); var b=i.querySelector('.nav-trigger'); if(b) b.setAttribute('aria-expanded','false'); }
+      });
+      item.classList.toggle('open', !isOpen);
+      btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+    });
+  });
+  document.addEventListener('click',function(e){
+    if(!e.target.closest('.nav-item')){
+      document.querySelectorAll('nav.main .nav-item.open').forEach(function(i){
+        i.classList.remove('open'); var b=i.querySelector('.nav-trigger'); if(b) b.setAttribute('aria-expanded','false');
+      });
+    }
+  });
+})();
