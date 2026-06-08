@@ -433,3 +433,17 @@ nav.main .nav-item.open .caret{transform:rotate(180deg)}
 .sitemaplist a{font-weight:600}
 @media(max-width:780px){.sitemaplist{columns:2}}
 @media(max-width:480px){.sitemaplist{columns:1}}
+
+/* ---- Rich program-page content: prose lists, checklists, comparison tables ---- */
+.prose ul,.prose ol{margin:0 0 18px;padding-left:1.35em;color:var(--ink-2)}
+.prose li{margin:7px 0;line-height:1.6}
+.prose ul.check{list-style:none;padding-left:0}
+.prose ul.check li{position:relative;padding-left:30px;margin:11px 0}
+.prose ul.check li::before{content:"";position:absolute;left:0;top:2px;width:19px;height:19px;border-radius:50%;background:var(--coral) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M5 13l4 4L19 7' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/13px no-repeat}
+.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:10px 0 22px;border:1px solid var(--line);border-radius:14px}
+.cmp{width:100%;border-collapse:collapse;font-size:.95rem;min-width:460px}
+.cmp th,.cmp td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.cmp thead th{background:var(--sand);color:var(--ink);font-family:"Sora",sans-serif;font-weight:600;font-size:.9rem}
+.cmp tbody th{font-weight:600;color:var(--ink);white-space:nowrap}
+.cmp tbody tr:last-child td,.cmp tbody tr:last-child th{border-bottom:0}
+.cmp td:not(:first-child),.cmp thead th:not(:first-child){color:var(--ink-2)}
