@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import BlogArticle from '../components/BlogArticle.astro';
+import { getCollection } from 'astro:content';
+import { withSettings } from '../lib/render';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages', ({ data }) => !data.draft && data.slug !== 'index');
+  const blog = await getCollection('blog', ({ data }) => !data.draft);
+  return [
+    ...pages.map((e) => ({ params: { slug: e.data.slug }, props: { kind: 'page', entry: e } })),
+    ...blog.map((e) => ({ params: { slug: e.slug }, props: { kind: 'blog', entry: e } })),
+  ];
+}
+
+const { kind, entry } = Astro.props;
+const d = entry.data;
+const ogImage = d.ogImage || 'og-image.jpg';
+let body = '', js = '';
+if (kind === 'page') {
+  body = withSettings(d.bodyHtml);
+  js = withSettings(d.pageJs);
+}
+const slug = kind === 'page' ? d.slug : entry.slug;
+const schema = kind === 'page' ? d.schema : [];
+---
+<Base title={d.title} description={d.description} keywords={d.keywords} slug={slug} ogImage={ogImage} schema={schema}>
+  {kind === 'page' ? (
+    <Fragment>
+      <Fragment set:html={body} />
+      {js && <script set:html={js} is:inline />}
+    </Fragment>
+  ) : (
+    <BlogArticle entry={entry} />
+  )}
+</Base>

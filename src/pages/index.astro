@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import { getEntry } from 'astro:content';
+import { withSettings } from '../lib/render';
+
+const entry = await getEntry('pages', 'index');
+const d = entry.data;
+const body = withSettings(d.bodyHtml);
+const js = withSettings(d.pageJs);
+---
+<Base title={d.title} description={d.description} keywords={d.keywords} slug="index" ogImage={d.ogImage} schema={d.schema}>
+  <Fragment set:html={body} />
+  {js && <script set:html={js} is:inline />}
+</Base>

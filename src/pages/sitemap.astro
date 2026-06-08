@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const pages = await getCollection('pages', ({ data }) => !data.draft);
+const blog = await getCollection('blog', ({ data }) => !data.draft);
+const group = (t: string) => pages.filter((p) => p.data.type === t).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const sections: [string, any[]][] = [
+  ['Main pages', pages.filter((p) => ['home', 'hub', 'tool'].includes(p.data.type))],
+  ['FHA guides', group('pillar')],
+  ['Counties', group('county')],
+  ['Cities', group('city')],
+  ['About & trust', group('trust')],
+];
+---
+<Base title="Sitemap | FHA Mortgages Florida" description="Browse every page on FHA Mortgages Florida — guides, county and city FHA loan pages, and blog articles." slug="sitemap">
+  <div class="crumbs"><div class="wrap"><a href="index.html">Home</a><span>/</span>Sitemap</div></div>
+  <section class="hero"><div class="wrap"><div class="hero-copy" style="max-width:820px">
+    <span class="eyebrow">Sitemap</span>
+    <h1>Every page on the site</h1>
+    <p class="lead">Browse all FHA guides, county and city pages, and blog articles in one place.</p>
+  </div></div></section>
+  <section><div class="wrap">
+    {sections.map(([name, items]) => (
+      <div class="reveal" style="margin-bottom:30px">
+        <h2 style="font-size:1.3rem;color:var(--ink);margin-bottom:10px">{name}</h2>
+        <div class="related">{items.map((p) => (<a href={'/' + p.data.slug + '.html'}>{p.data.title}</a>))}</div>
+      </div>
+    ))}
+    <div class="reveal" style="margin-bottom:30px">
+      <h2 style="font-size:1.3rem;color:var(--ink);margin-bottom:10px">Blog</h2>
+      <div class="related"><a href="/blog.html">Blog home</a>{blog.map((b) => (<a href={'/' + b.slug + '.html'}>{b.data.title}</a>))}</div>
+    </div>
+  </div></section>
+</Base>

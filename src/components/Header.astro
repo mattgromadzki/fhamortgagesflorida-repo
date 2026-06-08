@@ -1,0 +1,6 @@
+---
+import raw from '../data/_header.html?raw';
+import { withSettings } from '../lib/render';
+const html = withSettings(raw);
+---
+<Fragment set:html={html} />
