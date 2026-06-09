@@ -449,3 +449,14 @@ nav.main .nav-item.open .caret{transform:rotate(180deg)}
 .cmp td:not(:first-child),.cmp thead th:not(:first-child){color:var(--ink-2)}
 .cmp tbody th a{color:var(--ink-2);text-decoration:underline;text-underline-offset:2px}
 .cmp tbody th a:hover{color:var(--coral)}
+
+/* ---- Unified H1/H2: one font (Sora), one color (ink), never italic ---- */
+h1, h2, h1 *, h2 *{
+  font-family:"Sora",-apple-system,"Segoe UI",sans-serif !important;
+  font-style:normal !important;
+  color:var(--ink) !important;
+}
+/* exception: headings sitting on dark/coral bands stay white for contrast */
+.final h2, .final h2 *, #rates .sec-head h2, #rates .sec-head h2 *{
+  color:#fff !important;
+}
