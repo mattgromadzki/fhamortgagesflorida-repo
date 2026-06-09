@@ -498,3 +498,7 @@ h1, h2, h1 *, h2 *{
 .pa-success .ic{width:74px;height:74px;border-radius:50%;background:var(--teal-soft);color:var(--coral-deep);display:grid;place-items:center;margin:0 auto 18px}
 .pa-success{text-align:center}
 @media(max-width:480px){.pa-row{grid-template-columns:1fr}}
+
+/* ---- Fix: .rate-factors are light cards, so text must be dark (was inheriting white-on-white) ---- */
+.rate-factors li{background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:14px 18px;color:var(--ink)}
+.rate-factors li svg{color:var(--coral)}
