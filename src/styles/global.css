@@ -447,3 +447,5 @@ nav.main .nav-item.open .caret{transform:rotate(180deg)}
 .cmp tbody th{font-weight:600;color:var(--ink);white-space:nowrap}
 .cmp tbody tr:last-child td,.cmp tbody tr:last-child th{border-bottom:0}
 .cmp td:not(:first-child),.cmp thead th:not(:first-child){color:var(--ink-2)}
+.cmp tbody th a{color:var(--ink-2);text-decoration:underline;text-underline-offset:2px}
+.cmp tbody th a:hover{color:var(--coral)}
