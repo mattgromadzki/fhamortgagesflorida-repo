@@ -14,13 +14,13 @@ faqs:
     a: "They use your net income after business deductions, averaged over the documented period — not your gross revenue."
 related:
   - label: "FHA Loan Requirements"
-    href: "fha-loan-requirements-florida.html"
+    href: "/fha-loan-requirements-florida"
   - label: "FHA Credit Score Requirements"
-    href: "fha-credit-score-requirements-florida.html"
+    href: "/fha-credit-score-requirements-florida"
   - label: "How to Get an FHA Loan"
-    href: "how-to-get-fha-loan-florida.html"
+    href: "/how-to-get-fha-loan-florida"
   - label: "Get Pre-Approved Now"
-    href: "get-pre-approved.html"
+    href: "/get-pre-approved"
 ---
 
 Florida has a huge population of self-employed workers — contractors, gig workers, small business owners, and freelancers. The myth that you can't get a mortgage while self-employed is just that: a myth. FHA is one of the friendliest options.
@@ -43,7 +43,7 @@ Here's the key thing self-employed buyers miss: lenders use your **net income** 
 
 ## Tips to strengthen your application
 
-Keep business and personal finances separate, maintain healthy cash reserves, minimize new debt before applying, and avoid large unexplained deposits. A strong [credit score](fha-credit-score-requirements-florida.html) helps too.
+Keep business and personal finances separate, maintain healthy cash reserves, minimize new debt before applying, and avoid large unexplained deposits. A strong [credit score](/fha-credit-score-requirements-florida) helps too.
 
 
 ### Key takeaways

@@ -14,13 +14,13 @@ faqs:
     a: "No. FHA sets the minimum, but lenders can add their own higher requirements, so it pays to compare."
 related:
   - label: "FHA Loan Requirements"
-    href: "fha-loan-requirements-florida.html"
+    href: "/fha-loan-requirements-florida"
   - label: "FHA First-Time Home Buyer"
-    href: "fha-first-time-home-buyer-florida.html"
+    href: "/fha-first-time-home-buyer-florida"
   - label: "FHA vs Conventional"
-    href: "fha-vs-conventional-loan.html"
+    href: "/fha-vs-conventional-loan"
   - label: "Get Pre-Approved Now"
-    href: "get-pre-approved.html"
+    href: "/get-pre-approved"
 ---
 
 One of the biggest reasons Florida buyers choose FHA is its flexible credit requirements. But "flexible" doesn't mean "no rules." Here's what actually matters.

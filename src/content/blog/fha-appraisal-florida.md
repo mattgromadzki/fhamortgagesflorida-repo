@@ -14,13 +14,13 @@ faqs:
     a: "Required repairs typically must be completed before closing, often by the seller, or financed through an FHA 203(k) loan."
 related:
   - label: "FHA Loan Requirements"
-    href: "fha-loan-requirements-florida.html"
+    href: "/fha-loan-requirements-florida"
   - label: "FHA 203(k) Renovation"
-    href: "fha-203k-loan-florida.html"
+    href: "/fha-203k-loan-florida"
   - label: "FHA Condo Loans"
-    href: "fha-condo-loans-florida.html"
+    href: "/fha-condo-loans-florida"
   - label: "Get Pre-Approved Now"
-    href: "get-pre-approved.html"
+    href: "/get-pre-approved"
 ---
 
 Every FHA loan requires an appraisal, and it does double duty: it confirms the home is worth what you're paying, and it checks that the property meets FHA's minimum standards. Here's what to expect.
@@ -43,7 +43,7 @@ This trips up a lot of buyers: an FHA appraisal is **not** a home inspection. Th
 
 ## What if the home doesn't pass?
 
-If the appraiser notes required repairs, they typically must be completed before closing. Often the seller handles them, or it becomes a negotiation point. A [203(k) renovation loan](fha-203k-loan-florida.html) can also finance repairs into the loan.
+If the appraiser notes required repairs, they typically must be completed before closing. Often the seller handles them, or it becomes a negotiation point. A [203(k) renovation loan](/fha-203k-loan-florida) can also finance repairs into the loan.
 
 
 ### Key takeaways

@@ -13,7 +13,7 @@ const sections: [string, any[]][] = [
 ];
 ---
 <Base title="Sitemap | FHA Mortgages Florida" description="Browse every page on FHA Mortgages Florida — guides, county and city FHA loan pages, and blog articles." slug="sitemap">
-  <div class="crumbs"><div class="wrap"><a href="index.html">Home</a><span>/</span>Sitemap</div></div>
+  <div class="crumbs"><div class="wrap"><a href="/">Home</a><span>/</span>Sitemap</div></div>
   <section class="hero"><div class="wrap"><div class="hero-copy" style="max-width:820px">
     <span class="eyebrow">Sitemap</span>
     <h1>Every page on the site</h1>
@@ -23,12 +23,12 @@ const sections: [string, any[]][] = [
     {sections.map(([name, items]) => (
       <div class="reveal" style="margin-bottom:30px">
         <h2 style="font-size:1.3rem;color:var(--ink);margin-bottom:10px">{name}</h2>
-        <div class="related">{items.map((p) => (<a href={'/' + p.data.slug + '.html'}>{p.data.title}</a>))}</div>
+        <div class="related">{items.map((p) => (<a href={'/' + p.data.slug}>{p.data.title}</a>))}</div>
       </div>
     ))}
     <div class="reveal" style="margin-bottom:30px">
       <h2 style="font-size:1.3rem;color:var(--ink);margin-bottom:10px">Blog</h2>
-      <div class="related"><a href="/blog.html">Blog home</a>{blog.map((b) => (<a href={'/' + b.slug + '.html'}>{b.data.title}</a>))}</div>
+      <div class="related"><a href="/blog">Blog home</a>{blog.map((b) => (<a href={'/' + b.slug}>{b.data.title}</a>))}</div>
     </div>
   </div></section>
 </Base>

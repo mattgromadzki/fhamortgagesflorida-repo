@@ -14,13 +14,13 @@ faqs:
     a: "Often yes, if the monthly savings outweigh the refinance costs within a reasonable period and you plan to stay in the home."
 related:
   - label: "FHA Mortgage Insurance"
-    href: "fha-mortgage-insurance-florida.html"
+    href: "/fha-mortgage-insurance-florida"
   - label: "FHA Refinance"
-    href: "fha-refinance-florida.html"
+    href: "/fha-refinance-florida"
   - label: "FHA Streamline Refinance"
-    href: "fha-streamline-refinance-florida.html"
+    href: "/fha-streamline-refinance-florida"
   - label: "Get Pre-Approved Now"
-    href: "get-pre-approved.html"
+    href: "/get-pre-approved"
 ---
 
 FHA mortgage insurance (MIP) is the trade-off for low down payments — but you don't necessarily pay it for the life of your loan. Here's how to get rid of it.
@@ -38,7 +38,7 @@ If you put 10% or more down, you don't have to do anything — MIP drops off aft
 
 ## Option 2: Refinance to a conventional loan
 
-This is the most common path. Once you have roughly **20% equity** in your Florida home — through paying down the loan, rising home values, or both — you can [refinance into a conventional loan](fha-refinance-florida.html) with no monthly mortgage insurance. Given how much Florida home values have risen, many homeowners reach 20% faster than they expect.
+This is the most common path. Once you have roughly **20% equity** in your Florida home — through paying down the loan, rising home values, or both — you can [refinance into a conventional loan](/fha-refinance-florida) with no monthly mortgage insurance. Given how much Florida home values have risen, many homeowners reach 20% faster than they expect.
 
 
 ## Is it worth it?

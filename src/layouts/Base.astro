@@ -7,7 +7,8 @@ import sharedRaw from '../data/_shared.js?raw';
 
 const { title, description = '', keywords = '', slug, ogImage = 'og-image.jpg', schema = [] } = Astro.props;
 const site = 'https://fhamortgagesflorida.com';
-const url = `${site}/${slug}.html`;
+const url = slug === 'index' ? `${site}/` : `${site}/${slug}`;
+const robots = slug === '404' ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
 const shared = withSettings(sharedRaw);
 ---
 <!DOCTYPE html>
@@ -19,7 +20,7 @@ const shared = withSettings(sharedRaw);
   <meta name="description" content={description} />
   {keywords && <meta name="keywords" content={keywords} />}
   <link rel="canonical" href={url} />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="robots" content={robots} />
   <meta name="theme-color" content="#0f3d2e" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <meta property="og:type" content="website" />

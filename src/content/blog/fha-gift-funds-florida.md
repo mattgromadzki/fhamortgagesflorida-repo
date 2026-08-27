@@ -14,13 +14,13 @@ faqs:
     a: "A signed statement that the money is a gift with no repayment expected, including the amount, the donor's relationship to you, and their contact details."
 related:
   - label: "FHA Down Payment Assistance"
-    href: "fha-down-payment-assistance-florida.html"
+    href: "/fha-down-payment-assistance-florida"
   - label: "FHA Closing Costs"
-    href: "fha-closing-costs-florida.html"
+    href: "/fha-closing-costs-florida"
   - label: "FHA First-Time Home Buyer"
-    href: "fha-first-time-home-buyer-florida.html"
+    href: "/fha-first-time-home-buyer-florida"
   - label: "Get Pre-Approved Now"
-    href: "get-pre-approved.html"
+    href: "/get-pre-approved"
 ---
 
 Saving a down payment is the hardest part of buying for many Florida families. The good news: FHA lets your **entire 3.5% down payment** come from a gift — you don't have to save it all yourself.
@@ -43,7 +43,7 @@ Underwriters verify the gift. Expect to show the donor's withdrawal and your mat
 
 ## Gifts can cover closing costs too
 
-Gift funds aren't limited to the down payment — they can also help with [closing costs](fha-closing-costs-florida.html), reducing your total cash to close even further. Combined with seller credits and [Florida down payment assistance](fha-down-payment-assistance-florida.html), many buyers get in with very little of their own money.
+Gift funds aren't limited to the down payment — they can also help with [closing costs](/fha-closing-costs-florida), reducing your total cash to close even further. Combined with seller credits and [Florida down payment assistance](/fha-down-payment-assistance-florida), many buyers get in with very little of their own money.
 
 
 ### Key takeaways

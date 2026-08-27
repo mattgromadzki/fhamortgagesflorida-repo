@@ -14,13 +14,13 @@ faqs:
     a: "Yes — and you should. Pre-approval tells you your budget and makes your offers more competitive."
 related:
   - label: "FHA Loan Requirements"
-    href: "fha-loan-requirements-florida.html"
+    href: "/fha-loan-requirements-florida"
   - label: "FHA First-Time Home Buyer"
-    href: "fha-first-time-home-buyer-florida.html"
+    href: "/fha-first-time-home-buyer-florida"
   - label: "FHA Calculator"
-    href: "fha-mortgage-calculator-florida.html"
+    href: "/fha-mortgage-calculator-florida"
   - label: "Get Pre-Approved Now"
-    href: "get-pre-approved.html"
+    href: "/get-pre-approved"
 ---
 
 FHA loans are the most popular path to homeownership for Florida first-time buyers, and the process is more straightforward than most people expect. Here's how it works from start to finish.
@@ -28,7 +28,7 @@ FHA loans are the most popular path to homeownership for Florida first-time buye
 
 ## 1. Get pre-approved
 
-Before you shop, get pre-approved. A lender reviews your income, credit, and assets and tells you how much you can borrow. In Florida, this also tells you whether your target price fits within your [county's FHA loan limit](fha-loan-limits-florida.html). A pre-approval letter makes your offers far stronger.
+Before you shop, get pre-approved. A lender reviews your income, credit, and assets and tells you how much you can borrow. In Florida, this also tells you whether your target price fits within your [county's FHA loan limit](/fha-loan-limits-florida). A pre-approval letter makes your offers far stronger.
 
 
 ## 2. Find a home in your budget
@@ -38,7 +38,7 @@ Work with a real estate agent and shop within your pre-approval. Remember FHA is
 
 ## 3. Make an offer
 
-When you find the right home, your agent submits an offer. Tip: FHA lets sellers contribute up to 6% toward your [closing costs](fha-closing-costs-florida.html) — a smart thing to negotiate.
+When you find the right home, your agent submits an offer. Tip: FHA lets sellers contribute up to 6% toward your [closing costs](/fha-closing-costs-florida) — a smart thing to negotiate.
 
 
 ## 4. Apply and lock your rate
@@ -48,7 +48,7 @@ Once under contract, you complete your full application and lock your interest r
 
 ## 5. FHA appraisal
 
-The lender orders an [FHA appraisal](fha-appraisal-florida.html) to confirm the home's value and that it meets minimum property requirements. This protects you from overpaying.
+The lender orders an [FHA appraisal](/fha-appraisal-florida) to confirm the home's value and that it meets minimum property requirements. This protects you from overpaying.
 
 
 ## 6. Underwriting
