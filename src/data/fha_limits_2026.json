@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "year": 2026,
+    "effective": "Case numbers assigned on or after 2026-01-01",
+    "floor_1unit": 541287,
+    "national_ceiling_1unit": 1249125,
+    "source": "HUD 2026 FHA forward mortgage limits; verify at HUD's FHA Mortgage Limits lookup",
+    "note": "MASTER SOURCE OF TRUTH for FHA limit figures used across the site. When HUD releases new limits, update this file first, then propagate to page content."
+  },
+  "tiers": [
+    { "limit1": 541287, "limit2": 693050, "limit3": 837700, "limit4": 1041125, "label": "Florida floor", "counties": ["Alachua", "Bay", "Bradford", "Brevard", "Calhoun", "Charlotte", "Citrus", "Columbia", "DeSoto", "Dixie", "Escambia", "Flagler", "Franklin", "Gadsden", "Gilchrist", "Glades", "Gulf", "Hamilton", "Hardee", "Hendry", "Hernando", "Highlands", "Hillsborough", "Holmes", "Indian River", "Jackson", "Jefferson", "Lafayette", "Lake", "Lee", "Leon", "Levy", "Liberty", "Madison", "Marion", "Okeechobee", "Orange", "Osceola", "Pasco", "Pinellas", "Polk", "Putnam", "Santa Rosa", "Seminole", "Sumter", "Suwannee", "Taylor", "Union", "Volusia", "Wakulla", "Washington"] },
+    { "limit1": 547400, "limit2": 700750, "limit3": 847050, "limit4": 1052700, "label": "Sarasota-Bradenton metro", "counties": ["Manatee", "Sarasota"] },
+    { "limit1": 580750, "limit2": 743450, "limit3": 898700, "limit4": 1116850, "label": "Jacksonville metro", "counties": ["Baker", "Clay", "Duval", "Nassau", "St. Johns"] },
+    { "limit1": 603750, "limit2": 772900, "limit3": 934250, "limit4": 1161050, "label": "Treasure Coast / Emerald Coast", "counties": ["Martin", "St. Lucie", "Okaloosa", "Walton"] },
+    { "limit1": 667000, "limit2": 853900, "limit3": 1032150, "limit4": 1282700, "label": "South Florida metro", "counties": ["Broward", "Miami-Dade", "Palm Beach"] },
+    { "limit1": 764750, "limit2": 979000, "limit3": 1183400, "limit4": 1470700, "label": "Naples", "counties": ["Collier"] },
+    { "limit1": 990150, "limit2": 1267600, "limit3": 1532200, "limit4": 1904150, "label": "Florida Keys", "counties": ["Monroe"] }
+  ]
+}
