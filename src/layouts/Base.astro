@@ -9,6 +9,27 @@ const { title, description = '', keywords = '', slug, ogImage = 'og-image.jpg', 
 const site = 'https://fhamortgagesflorida.com';
 const url = slug === 'index' ? `${site}/` : `${site}/${slug}`;
 const robots = slug === '404' ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
+const orgSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FinancialService',
+  '@id': `${site}/#organization`,
+  name: settings.brand,
+  url: `${site}/`,
+  logo: `${site}/favicon.svg`,
+  image: `${site}/og-image.jpg`,
+  telephone: settings.phoneDisplay,
+  email: settings.email,
+  areaServed: { '@type': 'State', name: 'Florida' },
+  knowsAbout: ['FHA loans', 'FHA mortgage rates', 'FHA loan requirements', 'FHA loan limits', 'first-time home buyer programs'],
+});
+const siteSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${site}/#website`,
+  name: settings.brand,
+  url: `${site}/`,
+  publisher: { '@id': `${site}/#organization` },
+});
 const shared = withSettings(sharedRaw);
 ---
 <!DOCTYPE html>
@@ -35,9 +56,12 @@ const shared = withSettings(sharedRaw);
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={`${site}/${ogImage}`} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script type="application/ld+json" set:html={orgSchema} />
+  <script type="application/ld+json" set:html={siteSchema} />
   {schema.map((s: string) => (<script type="application/ld+json" set:html={s} />))}
 </head>
 <body>
